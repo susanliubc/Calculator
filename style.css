@@ -1,0 +1,41 @@
+.card {
+  width: 310px;
+  margin: 90px auto;
+  background-color: #d9e0f7;
+}
+#screen {
+  display: inline-block;
+  border: 1px solid blue;
+  margin: 40px auto 20px;
+  padding: 2px 3px;
+  width: 220px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 5px;
+  background-color: palegreen;
+  text-align: right;
+  font-size: 1.5em;
+}
+.clear-section .input {
+  background-color: #ff9999;
+  border-radius: 50%;
+} 
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 20px auto;
+}
+.input {
+  display: grid;
+  border: 1px solid black;
+  width: 45px;
+  height: 45px;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  background-color: yellow;
+}
+.input:hover {
+  background-color: #70ABFF;
+}
